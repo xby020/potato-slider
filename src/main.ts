@@ -1,4 +1,4 @@
-import PotatoSlider from '../package/main';
+import PotatoSlider from '../package/potato-slider';
 
 // nodes
 const nodes = document.querySelector('#app') as HTMLElement;

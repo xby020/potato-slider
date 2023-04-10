@@ -1,10 +1,13 @@
 import { defineConfig } from 'vite';
+import dts from 'vite-plugin-dts';
 
 export default defineConfig({
   build: {
     lib: {
-      entry: 'package/main.ts',
-      name: 'PotatoSlider'
+      entry: 'package/potato-slider.ts',
+      name: 'PotatoSlider',
+      fileName: 'potato-slider',
+      formats: ['es']
     },
     rollupOptions: {
       external: ['three'],
@@ -15,7 +18,7 @@ export default defineConfig({
       }
     }
   },
-  plugins: [],
+  plugins: [dts()],
   resolve: {
     alias: {
       '@': '/src'
