@@ -2,6 +2,7 @@
   "name": "@xby020/potato-slider",
   "private": false,
   "version": "0.0.1",
+  "description": "A simple fancy slider for Three.js",
   "type": "module",
   "main": "package/main.ts",
   "scripts": {
