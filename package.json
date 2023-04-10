@@ -4,7 +4,14 @@
   "version": "0.0.1",
   "description": "A simple fancy slider for Three.js",
   "type": "module",
-  "main": "package/main.ts",
+  "main": "dist/potato-slider.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xby020/potato-slider"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
